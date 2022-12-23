@@ -125,6 +125,7 @@ nav > img {
     position: absolute;
     color: #FFFFFF;
     font-size: 30px;
+    text-align: center;
 }
 
 
@@ -185,8 +186,8 @@ nav > img {
 
 #reliability p {
     color: white;
-    font-size: 18px;
-    padding: 10px 20px;
+    font-size: 16px;
+    padding: 10px 30px;
     font-weight: bold;
 }
 
@@ -194,6 +195,7 @@ nav > img {
     color: white;
     margin-top: 20px;
     margin-bottom: 25px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
+    padding: 0 40px;
 }
