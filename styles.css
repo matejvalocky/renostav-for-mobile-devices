@@ -21,10 +21,22 @@ header{
 }
 
 header img{
-    width: 188px;
+    width: 178px;
     position: relative;
     left: 20px;
     
+}
+
+/* DROPDOWN */
+
+nav{
+    position: relative;
+    right: 40px;
+}
+
+nav > img {
+    width: 25px;
+   
 }
 
 
@@ -33,14 +45,14 @@ header img{
     background-color: rgb(234, 255, 239);
     background-image: url(./img/home-header.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center;  
     
     
 }
 
 .titleArea{
-    width: 90%;
-    height: 200px;
+    width: 85%;
+    height: 200px;    
     
 }
 
@@ -72,6 +84,13 @@ header img{
     align-items: center;
 }
 
+.flexCenterRowBetween{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .flexCenterColumn{
     display: flex;
     flex-direction: column;
@@ -80,3 +99,55 @@ header img{
 }
 
 
+
+/* PONUKY */
+
+#offers{
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+#offers img{
+    width: 100%;
+}
+
+
+
+.oneOffer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.oneOffer > h2 {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+
+
+/* NOVINKY */
+
+#news h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#news h3 {
+    padding: 30px 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+#news p {
+    padding: 10px 20px;
+}
+
+#news img{
+    width: 100%;
+    margin: 15px;
+}
