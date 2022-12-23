@@ -43,7 +43,7 @@ nav > img {
 #titleImage {
     height: 862px;
     background-color: rgb(234, 255, 239);
-    background-image: url(./img/home-header.jpg);
+    background-image: url(./img/home-header-black.jpg);
     background-size: cover;
     background-position: center;  
     
@@ -148,6 +148,52 @@ nav > img {
 }
 
 #news img{
-    width: 100%;
+    width: 90%;
     margin: 15px;
+}
+
+/* KATALOG */
+
+#catalog{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#catalog h2{
+    text-align: center;
+}
+
+/* SPOLAHLIVOST */
+
+#reliability{
+    width: 100%;
+    height: 550px;
+    background-image: url(./img/preco-my/precoMy-black.jpg);
+    background-size: cover;
+    background-position: center;  
+    
+}
+
+#reliability h2{
+    text-align: center;
+    color: white;
+}
+
+#reliability h2 span {
+    color: #FFB600;
+}
+
+#reliability p {
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+#reliability ul {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: bold;
 }
