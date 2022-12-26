@@ -310,3 +310,48 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+/* HOVORI SA O NAS */
+
+#itSays{
+    width: 100%;
+    height: 792px;
+    background-image: url(./img/hovoriSa/3-stavebniny-martin-renostav-interier.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#itSays h2{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+
+
+.poznamka{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.poznamka h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.poznamka p{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.poznamka q{
+    color:#FFB600;
+    font-size: 30px;
+}
+
+.poznamka h4{
+    font-size: 20px;
+}
