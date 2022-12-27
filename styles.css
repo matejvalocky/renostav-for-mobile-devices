@@ -29,16 +29,52 @@ header img{
 
 /* DROPDOWN */
 
-nav{
-    position: relative;
-    right: 40px;
+header span{
+    margin-right: 30px;
 }
 
-nav > img {
-    width: 25px;
-   
-}
 
+.sidenav {
+    margin-top: 125px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.25s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 2px 2px 2px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+  /* DROPDOWN  END*/
 
 #titleImage {
     height: 862px;
