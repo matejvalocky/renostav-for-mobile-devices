@@ -189,6 +189,13 @@ header span{
     margin: 15px;
 }
 
+.newsWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* KATALOG */
 
 #catalog{
