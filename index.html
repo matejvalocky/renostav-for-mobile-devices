@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="scripts.js" defer></script>
     <title>Domov - Renostav</title>
 </head>
@@ -22,29 +25,30 @@
 
    <section id="offers">
     <div class="oneOffer">
-        <h2>Stavebiny</h2>
+        <h2 data-aos="fade-down">
+        Stavebiny</h2>
         <img src="./img/ponuky/stavebniny-renostav.jpg" alt="">
     </div>
 
     <div class="oneOffer">
-        <h2>Požičovňa náradia</h2>
+        <h2 data-aos="fade-right">Požičovňa náradia</h2>
         <img src="./img/ponuky/bw-pozicovna-renostav.jpg" alt="">
     </div>
 
     <div class="oneOffer">
-        <h2>Technické a mediciálne plyny</h2>
+        <h2 data-aos="fade-down">Technické a mediciálne plyny</h2>
         <img src="./img/ponuky/bw-plyny-renostav-copy.jpg" alt="">
     </div>
 
     <div class="oneOffer">
-        <h2>Realizácie</h2>
+        <h2 data-aos="fade-right">Realizácie</h2>
         <img src="./img/ponuky/bw-realizacie-renostav.jpg" alt="">
     </div>
    </section>
 
    <section id="news">
         <h2>Novinka v Renostave</h2>
-        <h3>Možnosť miešania fasádnych omietok a farieb podľa vášho želania!</h3>
+        <h3 data-aos="fade-up-right">Možnosť miešania fasádnych omietok a farieb podľa vášho želania!</h3>
 
         <div class="newsWrapper">
             <p>Ak hľadáte dokonalú farbu alebo fasádnu omietku, ktorá by vášmu domovu dodala vzhľad a atmosféru, akú ste si vždy želali, potom ste na správnom mieste. </p>
@@ -58,22 +62,22 @@
 
    <section id="catalog" class="flexCenterColumn">
     <h2>Prezri si náš katalóg</h2>
-    <img src="./img/katalog/catalog.png" alt="">
+    <img src="./img/katalog/catalog.png" alt="" data-aos="flip-left">
    </section>
 
    <section id="reliability" class="flexCenterColumn">
-        <h2>Spoľahlivosť <br> <span>a poctivá práca</span></h2>
-        <p>Zabezpečujeme kompletnú realizáciu či rekonštrukciu rodinných domov, priemyselných objektov či bytových jadier. Súčasťou stavebných prác sú obklady a dlažby, sadrokartóny, kúrenárske a vodoinštalačné práce, zatepľovanie fasád, realizácia zámkovej dlažby a ďalšie činnosti podľa potreby.</p>
+        <h2 data-aos="flip-up">Spoľahlivosť <br> <span data-aos="flip-down">a poctivá práca</span></h2>
+        <p data-aos="zoom-in-up">Zabezpečujeme kompletnú realizáciu či rekonštrukciu rodinných domov, priemyselných objektov či bytových jadier. Súčasťou stavebných prác sú obklady a dlažby, sadrokartóny, kúrenárske a vodoinštalačné práce, zatepľovanie fasád, realizácia zámkovej dlažby a ďalšie činnosti podľa potreby.</p>
 
-        <p>Našim zákazníkom garantujeme:</p>
+        <p data-aos="zoom-in-down">Našim zákazníkom garantujeme:</p>
 
-        <ul>
+        <ul data-aos="zoom-in-left">
             <li>vysokú profesionalitu pri realizácií prác</li>
             <li>kvalitne a precízne vyhotovenie</li>
             <li>plnenie zákaziek v dohodnutých termínoch</li>
         </ul>
 
-        <img src="./img/logo-white.png" alt="">
+        <img src="./img/logo-white.png" alt="" data-aos="zoom-out-up">
 
         
 
@@ -128,61 +132,77 @@
    </section>
 
    <section id="itSays">
-       <h2>Hovorí sa o nás</h2>
+       <h2 data-aos="fade-up"
+       data-aos-duration="1000">Hovorí sa o nás</h2>
        <div class="poznamka">
-            <h3>Stavebniny</h3>
+            <h3 data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="500">Stavebniny</h3>
         
             <q></q>
-            <p>Dobrá a rýchla obsluha, spokojnosť</p>
-            <h4>Ján Záborský</h4>
+            <p data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">Dobrá a rýchla obsluha, spokojnosť</p>
+            <h4 data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="500">Ján Záborský</h4>
        </div>
 
        <div class="poznamka">
-            <h3>Požičovňa náradia</h3>
+            <h3 data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500">Požičovňa náradia</h3>
             <q></q>
-            <p>Pokazilo sa nám búracie kladivo v piatok poobede a potrebovali sme to mať hotové cez víkend. Zavolal som, objednal som a vďaka Renostavu sme to dali na čas.</p>
-            <h4>Martin Igor</h4>
+            <p data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">Pokazilo sa nám búracie kladivo v piatok poobede a potrebovali sme to mať hotové cez víkend. Zavolal som, objednal som a vďaka Renostavu sme to dali na čas.</p>
+            <h4 data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500">Martin Igor</h4>
        </div>
 
        <div class="poznamka">
-        <h3>Realizácie</h3>
+        <h3 data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2500">Realizácie</h3>
         <q></q>
-        <p>Zveril som firme kompletnú rekonštrukciu panelákového bytu a toto sú moje skúsenosti. Demolačné a prípravné práce zvládli super.</p>
-        <h4>Adam Varga</h4>
+        <p data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">Zveril som firme kompletnú rekonštrukciu panelákového bytu a toto sú moje skúsenosti. Demolačné a prípravné práce zvládli super.</p>
+        <h4 data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2500">Adam Varga</h4>
    </div> 
    </section>
 
    <section id="connect">
-        <h2>Spojme sa</h2>
-        <div class="spojmeSaSekcia">
+        <h2 data-aos="flip-left">Spojme sa</h2>
+        <div class="spojmeSaSekcia" data-aos="flip-up">
             <h3>Stavebniny</h3>
             <p>Peter Záborský</p>
             <a href="tel:+">+ 421 918 880 874</a>
             <a href="mailto:">obchod@renostav.sk</a>
         </div>
 
-        <div class="spojmeSaSekcia">
+        <div class="spojmeSaSekcia" data-aos="flip-right">
             <h3>Stavebniny</h3>
             <p>Janka Botková</p>
             <a href="tel:+">+ 421 905 731 347</a>
             <a href="mailto:">stavebniny@renostav.sk</a>
         </div>
 
-        <div class="spojmeSaSekcia">
+        <div class="spojmeSaSekcia" data-aos="flip-down">
             <h3>Technické plyny</h3>
             <p>Ján Gašparides</p>
             <a href="tel:+">+ 421 917 621 856</a>
             <a href="mailto:">technickeplyny@gmail.com</a>
         </div>
 
-        <div class="spojmeSaSekcia">
+        <div class="spojmeSaSekcia"  data-aos="flip-left">
             <h3>Realizácie</h3>
             <p>Branislav Černák</p>
             <a href="tel:+">+ 421 907 825 250</a>
             <a href="mailto:">renostav@renostav.sk</a>
         </div>
 
-        <iframe id="map" 
+        <iframe id="map" data-aos="fade-up"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.1597522154884!2d18.910738316150763!3d49.06459797930826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4714feda3c3a034d%3A0xed5022aa1187fe9d!2sRenostav%20plus%2C%20s.r.o.!5e0!3m2!1ssk!2ssk!4v1672094994391!5m2!1ssk!2ssk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
         
@@ -212,6 +232,12 @@
 
 
    </section>
+
+   <script>
+    AOS.init();
+  </script>
+
+   <script src="./scripts.js"></script>
 
 </body>
 </html>
