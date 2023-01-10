@@ -498,3 +498,59 @@ img {vertical-align: middle;}
 
 
 
+/** SLUŽBY */
+
+#servicesHeading{   
+    width: 100%;
+    height: 138px;
+    background-color: #f3f3f3;
+}
+
+#servicesHeading2{
+    width: 100%;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.prace h2{
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+.solidLine{
+    width: 100px;
+    height: 4px;
+    border: 2px solid #FFB600;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.prace p{
+    padding: 0 15px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+.imgContainer{
+    width: 95%;
+    height: 123px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 15px;  
+    margin-bottom: 50px; 
+}
+
+.img1{
+    background-image: url(./img/prace/1-maliarske-prace-martin-renostav.jpg);
+}
+
+.img2{
+    background-image: url(./img/prace/2-brusenie-stierky-martin-renostav.jpg);
+}
+
+.img3{
+    background-image: url(./img/prace/3-sadrokartonarske-prace-martin-renostav.jpg);
+}
