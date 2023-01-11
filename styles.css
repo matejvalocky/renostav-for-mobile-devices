@@ -530,8 +530,9 @@ img {vertical-align: middle;}
 
 .prace p{
     padding: 0 15px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     text-align: justify;
+    line-height: 20px;
 }
 
 .imgContainer{
@@ -541,6 +542,7 @@ img {vertical-align: middle;}
     background-size: cover;
     margin: 0 15px;  
     margin-bottom: 50px; 
+    margin-top: 10px;
 }
 
 .img1{
@@ -556,73 +558,74 @@ img {vertical-align: middle;}
 }
 
 .img4 {
+    background-image: url(./img/prace/4-obklady-a-dlazby-martin-renostav.jpg);
 
 }
 
 .img5 {
-    
+    background-image: url(./img/prace/5-prerabka-jadra-byt-dom-martin-renostav.jpg);
 }
 
 .img6 {
-    
+    background-image: url(./img/prace/);
 }
 
 .img7 {
-    
+    background-image: url(./img/prace/);
 }
 
 .img8 {
-    
+    background-image: url(./img/prace/);
 }
 
 .img9 {
-    
+    background-image: url(./img/prace/);
 }
 
 .img10 {
-    
+    background-image: url(./img/prace/);
 }
 
 .img11 {
-    
+    background-image: url(./img/prace/);
 }
 
 .img12 {
-    
+    background-image: url(./img/prace/);
 }
 
 .img13 {
-    
+    background-image: url(./img/prace/);
 }
 
 .img14 {
-    
+    background-image: url(./img/prace/);
 }
 
 .img15 {
-    
+    background-image: url(./img/prace/);
 }
 
 .img16 {
-    
+    background-image: url(./img/prace/);
 }
 
 .img17 {
-    
+    background-image: url(./img/prace/);
 }
 
 .img18 {
-    
+    background-image: url(./img/prace/);
 }
 
 .img19 {
-    
+    background-image: url(./img/prace/); 
 }
 
 .img20 {
-    
+    background-image: url(./img/prace/);
 }
 
 .img21 {
-    
+    background-image: url(./img/prace/);
 }
